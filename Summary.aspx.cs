@@ -16,7 +16,8 @@ namespace WebApplication1
         }
         protected String GetNoShow()
         {
-            StringBuilder s= new StringBuilder();
+            StringBuilder s= new StringBuilder("\t");
+
             var noData=RespRepo.GetRepo().GetResponses().Where(r=>r.WillAttend.HasValue && !r.WillAttend.Value);
             foreach(var r in noData)
             {
