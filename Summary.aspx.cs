@@ -32,7 +32,7 @@ namespace WebApplication1
             {
                 lblMsg.Text = "Checked";
             } else {
-                lblMsg.Text = "Not checked...!!";
+                lblMsg.Text = "Not checked.";
             }
         }
         public List<String> someBullets()
