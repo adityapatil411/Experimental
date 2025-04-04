@@ -56,6 +56,8 @@
             <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="textbox_method" AutoPostBack="true"></asp:TextBox>
              
             <div id="label1"></div>
+
+            <asp:Button ID="Button1" runat="server" Text="Click me" Height="100px" Width="100px" OnClick="Button1_Click" />
         </form>
     </div>
     <script type="text/javascript">
